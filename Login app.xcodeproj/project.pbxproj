@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		20CC59EC27D792F70085B192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC59EB27D792F70085B192 /* AppDelegate.swift */; };
 		20CC59EE27D792F70085B192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC59ED27D792F70085B192 /* SceneDelegate.swift */; };
-		20CC59F027D792F70085B192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC59EF27D792F70085B192 /* ViewController.swift */; };
+		20CC59F027D792F70085B192 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC59EF27D792F70085B192 /* LoginViewController.swift */; };
 		20CC59F327D792F70085B192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CC59F127D792F70085B192 /* Main.storyboard */; };
 		20CC59F527D792F90085B192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CC59F427D792F90085B192 /* Assets.xcassets */; };
 		20CC59F827D792F90085B192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CC59F627D792F90085B192 /* LaunchScreen.storyboard */; };
+		20CC5A0027D7DDBC0085B192 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC59FF27D7DDBC0085B192 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20CC59E827D792F70085B192 /* Login app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CC59EB27D792F70085B192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CC59ED27D792F70085B192 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20CC59EF27D792F70085B192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20CC59EF27D792F70085B192 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20CC59F227D792F70085B192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CC59F427D792F90085B192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CC59F727D792F90085B192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CC59F927D792F90085B192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CC59FF27D7DDBC0085B192 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		20CC59DF27D792F70085B192 = {
 			isa = PBXGroup;
 			children = (
+				20CC59FF27D7DDBC0085B192 /* WelcomeViewController.swift */,
 				20CC59EA27D792F70085B192 /* Login app */,
 				20CC59E927D792F70085B192 /* Products */,
 			);
@@ -58,7 +61,7 @@
 			children = (
 				20CC59EB27D792F70085B192 /* AppDelegate.swift */,
 				20CC59ED27D792F70085B192 /* SceneDelegate.swift */,
-				20CC59EF27D792F70085B192 /* ViewController.swift */,
+				20CC59EF27D792F70085B192 /* LoginViewController.swift */,
 				20CC59F127D792F70085B192 /* Main.storyboard */,
 				20CC59F427D792F90085B192 /* Assets.xcassets */,
 				20CC59F627D792F90085B192 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CC59F027D792F70085B192 /* ViewController.swift in Sources */,
+				20CC59F027D792F70085B192 /* LoginViewController.swift in Sources */,
+				20CC5A0027D7DDBC0085B192 /* WelcomeViewController.swift in Sources */,
 				20CC59EC27D792F70085B192 /* AppDelegate.swift in Sources */,
 				20CC59EE27D792F70085B192 /* SceneDelegate.swift in Sources */,
 			);
@@ -305,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
